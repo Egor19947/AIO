@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIO</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.svg" alt="logo">
+          <p class="logo__text">
+            Сервис подбора
+            банковских услуг
+          </p>
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">КРЕДИТНЫЕ КАРТЫ</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">КРЕДИТЫ</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">ЗАЙМЫ</a>
+            </li>
+            <li class="menu__list-item menu__list-item--mobile">
+              <a href="#" class="menu__list-link">Банки</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#" class="menu__list-link">РКО</a>
+            </li>
+            <li class="menu__list-item menu__list-item--mobile">
+              <a href="#" class="menu__list-link">Карты рассрочки</a>
+            </li>
+            <li class="menu__list-item menu__list-item--mobile">
+              <a href="#" class="menu__list-link">Рефинансирование</a>
+            </li>
+            <li class="menu__list-item menu__list-item--mobile">
+              <a href="#" class="menu__list-link">Дебетовые карты</a>
+            </li>
+            <li class="menu__list-item menu__list-item--mobile">
+              <a href="#" class="menu__list-link">Ипотека</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu__btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="services">
+      <div class="container">
+        <h1 class="title services__title">Кредитные карты</h1>
+        <div class="subtitle services__subtitle">Подберите самую выгодную карту</div>
+        <form class="services__form o-main">
+          <div class="services__box services__box--target">
+            <p class="services__box-text">Правовая форма</p>
+            <select class="services__box-select">
+              <option class="services__box-option" value="1">Автомобиль</option>
+              <option class="services__box-option" value="2">Наличные</option>
+              <option class="services__box-option" value="3">Покупки по карте</option>
+            </select>
+          </div>
+          <div class="services__box services__box--target">
+            <p class="services__box-text">Срок действия</p>
+            <select class="services__box-select">
+              <option class="services__box-option" value="1">Автомобиль</option>
+              <option class="services__box-option" value="2">Наличные</option>
+              <option class="services__box-option" value="3">Покупки по карте</option>
+            </select>
+          </div>
+          <div class="services__box services__box--sort">
+            <p class="services__box-text">Операции</p>
+            <select class="services__box-select">
+              <option class="services__box-option" value="1">Рейтинг</option>
+              <option class="services__box-option" value="2">Кред. лимит</option>
+              <option class="services__box-option" value="3">Проц. ставка</option>
+              <option class="services__box-option" value="4">Кэшбэк</option>
+            </select>
+          </div>
+          <button class="services__btn" type="submit">Подобрать карту</button>
+        </form>
+        <div class="cards-page">
+          <h2 class="cards-page__title title">Мы подобрали 56 предложений</h2>
+          <p class="cards-page__subtitle subtitle">
+            В среднем у банков 76 дней беспроцентного периода и ставка 20% годовых
+          </p>
+          <p class="cards-page__text--mobile">Подобрано 56 карт</p>
+          <div class="cards-page__wrap">
+            <div class="deals-tabs__top">
+              <a class="deals-tabs__top-item deals-tabs__top-item--active" href="#tab-1">Кредитные карты</a>
+              <a class="deals-tabs__top-item" href="#tab-2">Кредиты</a>
+              <a class="deals-tabs__top-item" href="#tab-3">Займы</a>
+              <a class="deals-tabs__top-item" href="#tab-4">Рко</a>
+            </div>
+            <div class="cards-page__content">
+              <div class="deals__items deals__items--active" id="tab-1">
+                <div class="cards-page__item">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Тинькофф
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/01.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Тинькофф</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">55 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 30%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 12%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">2 мин.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">tinkoff.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №2673</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Мы рекомендуем</p>
+                      <p class="cards-page__info-text cash">Большой кэшбэк</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Точка
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/02.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Точка</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">до 100 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">нет</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 10%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 549 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">2 мин.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88002000000">8 800 2000 000</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text reviews-icon">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Сфера
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/03.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Сфера</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item">
+                  <h3 class="cards-page__item-title">
+                    РКО в Райффайзенбанке
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/04.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в Райффайзенбанке</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">до 55 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 5%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 21%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 час</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001000100">8 800 1000 100</a>
+                        <a class="cards-page__contacts-item" href="#">rshb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №3349</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text year">Любой возраст</p>
+                      <p class="cards-page__info-text cash">Большой кэшбэк</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Уралсиб
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/05.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Уралсиб</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">101 день</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 4%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 16%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001002424">8 800 100-24-24</a>
+                        <a class="cards-page__contacts-item" href="#">vtb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1000</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deals__items" id="tab-2">
+                <div class="cards-page__item cards-page__item--2">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Сфера
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/03.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Сфера</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--2">
+                  <h3 class="cards-page__item-title">
+                    РКО в Райффайзенбанке
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/04.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в Райффайзенбанке</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">до 55 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 5%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 21%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 час</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001000100">8 800 1000 100</a>
+                        <a class="cards-page__contacts-item" href="#">rshb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №3349</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Мы рекомендуем</p>
+                      <p class="cards-page__info-text cash">Большой кэшбэк</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--2">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Уралсиб
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/05.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Уралсиб</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">101 день</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 4%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 16%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001002424">8 800 100-24-24</a>
+                        <a class="cards-page__contacts-item" href="#">vtb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1000</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text year">Любой возраст</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deals__items" id="tab-3">
+                <div class="cards-page__item cards-page__item--3">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Сфера
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/03.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Сфера</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--3">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Точка
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/02.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Точка</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--3">
+                  <h3 class="cards-page__item-title">
+                    РКО в Райффайзенбанке
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/04.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в Райффайзенбанке</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text fast">Быстрое решение</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--3">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Уралсиб
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/05.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Уралсиб</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">2 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">60 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">милями</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 24%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 990 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88005557778">8 800 555-77-78</a>
+                        <a class="cards-page__contacts-item" href="#">alfabank.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1326</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text limit">Высокий лимит</p>
+                      <p class="cards-page__info-text miles">Кэшбэк милями</p>
+                      <p class="cards-page__info-text year">Любой возраст</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="deals__items" id="tab-4">
+                <div class="cards-page__item cards-page__item--4">
+                  <h3 class="cards-page__item-title">
+                    РКО в Райффайзенбанке
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/04.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в Райффайзенбанке</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">до 55 дней</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 5%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 21%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 час</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001000100">8 800 1000 100</a>
+                        <a class="cards-page__contacts-item" href="#">rshb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №3349</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Мы рекомендуем</p>
+                      <p class="cards-page__info-text cash">Большой кэшбэк</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--4">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Уралсиб
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/05.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Уралсиб</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">101 день</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 4%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 16%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001002424">8 800 100-24-24</a>
+                        <a class="cards-page__contacts-item" href="#">vtb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1000</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text year">Любой возраст</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--4">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Точка
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/02.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Точка</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">101 день</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 4%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 16%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001002424">8 800 100-24-24</a>
+                        <a class="cards-page__contacts-item" href="#">vtb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1000</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="cards-page__item cards-page__item--4">
+                  <h3 class="cards-page__item-title">
+                    РКО в банке Тинькофф
+                  </h3>
+                  <div class="cards-page__item-wrapper">
+                    <img class="cards-page__item-img" src="images/rko/01.png" alt="card image">
+                    <div class="cards-page__item-box">
+                      <h3 class="cards-page__item-title--mobail">РКО в банке Тинькофф</h3>
+                      <div class="cards-page__item-stars" data-rateyo-rating="5"></div>
+                      <div class="cards-page__box-info">
+                        <div class="cards-page__box-column">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кред. лимит</p>
+                            <p class="cards-page__box-num">1 000 000 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Без процентов</p>
+                            <p class="cards-page__box-num">101 день</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Кэшбэк</p>
+                            <p class="cards-page__box-num">до 4%</p>
+                          </div>
+                        </div>
+                        <div class="cards-page__box-column cards-page__box-column--right">
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Проц. ставка</p>
+                            <p class="cards-page__box-num">от 16%</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Стоимость</p>
+                            <p class="cards-page__box-num">от 0 ₽</p>
+                          </div>
+                          <div class="cards-page__box-wrap">
+                            <p class="cards-page__box-text">Решение</p>
+                            <p class="cards-page__box-num">1 день</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="cards-page__item-links">
+                        <a class="cards-page__item-link" href="#">Оформить</a>
+                        <a class="cards-page__item-link cards-page__item-link--white" href="#">Подробнее</a>
+                      </div>
+                      <div class="cards-page__item-contacts">
+                        <a class="cards-page__contacts-item" href="tel:88001002424">8 800 100-24-24</a>
+                        <a class="cards-page__contacts-item" href="#">vtb.ru</a>
+                        <p class="cards-page__contacts-item">Лицензия: №1000</p>
+                      </div>
+                    </div>
+                    <div class="cards-page__item-info">
+                      <p class="cards-page__info-text recommendations">Лучшие отзывы</p>
+                      <p class="cards-page__info-text bet">Низкая ставка</p>
+                      <p class="cards-page__info-text free">Бесплатная</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="deals__link" id="showMore" href="#">Показать ещё</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="info">
+      <div class="container">
+        <h3 class="title">Полезная информация</h3>
+        <div class="info__items one" itemtype="https://schema.org/FAQPage" itemscope>
+          <div class="info__item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+            <h3 class="info__item-title" itemprop="name">Зачем нужна кредитная карта?</h3>
+            <div class="info__item-box" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" itemscope>
+              <p class="info__item-text" itemprop="text">Если вам не хватает своих средств для покупки желанного товара
+                или услуги, на помощь придет кредитная карта в Москве.
+                Это отличный способ быстро получить нужную сумму.</p>
+            </div>
+          </div>
+          <div class="info__item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+            <h3 class="info__item-title" itemprop="name">Сколько забирает банк?</h3>
+            <div class="info__item-box" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" itemscope>
+              <p class="info__item-text" itemprop="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis voluptates, blanditiis consectetur impedit hic explicabo minus voluptatem dignissimos
+                incidunt repellendus?</p>
+            </div>
+          </div>
+          <div class="info__item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+            <h3 class="info__item-title" itemprop="name">Как выбрать кредитную карту?</h3>
+            <div class="info__item-box" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" itemscope>
+              <p class="info__item-text" itemprop="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis voluptates, blanditiis consectetur impedit hic explicabo minus voluptatem dignissimos
+                incidunt repellendus?</p>
+            </div>
+          </div>
+          <div class="info__item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+            <h3 class="info__item-title" itemprop="name">Все предложения актуальны?</h3>
+            <div class="info__item-box" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" itemscope>
+              <p class="info__item-text" itemprop="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis voluptates, blanditiis consectetur impedit hic explicabo minus voluptatem dignissimos
+                incidunt repellendus?</p>
+            </div>
+          </div>
+          <div class="info__item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+            <h3 class="info__item-title" itemprop="name">Как отблагодарить автора?</h3>
+            <div class="info__item-box" itemprop="acceptedAnswer" itemtype="https://schema.org/Answer" itemscope>
+              <p class="info__item-text" itemprop="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis voluptates, blanditiis consectetur impedit hic explicabo minus voluptatem dignissimos
+                incidunt repellendus?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="solution">
+      <div class="container">
+        <h3 class="title">Готовые решения</h3>
+        <div class="solution__items">
+          <div class="solution__item">
+            <h6 class="solution__item-title">Кредитные карты</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредитные карты без отказа</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие кредитные карты</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Для снятия наличных</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С плохой кредитной историей</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С доставкой на дом</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Виртуальные кредитные карты</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредитные карты в Москве</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредитные карты онлайн</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Дебетовые карты</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие дебетовые карты</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С бесплатным обслуживанием</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Дебетовые карты с кэшбеком</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Моментальные</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С процентом на остаток</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Виртуальные дебетовые карты</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С доставкой на дом</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Дебетовые карты для детей</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Карты рассрочки</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие карты рассрочки</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Карты рассрочки без отказа</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Карты с рассрочкой 24 месяца</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Карты с рассрочкой 12 месяцев</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Со снятием наличных</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Карты без процентов</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Карты рассрочки с 18 лет</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С доставкой на дом</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Кредиты наличными</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит наличными на карту</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Онлайн кредит наличными</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С плохой кредитной историей</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит наличными без отказа</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит наличными без работы</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит наличными без справок</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит наличными по паспорту</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Кредит под низкий процент</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Автокредиты</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие автокредиты</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Автокредит с плохой КИ</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Автокредит без перв. взноса</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Автокредит онлайн</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Автокредит без справок</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">По двум документам</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">На подержаный авто</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Автокредит под залог</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Рефинансирование</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие предложения</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Под низкий процент</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С плохой КИ</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Без подтверждения дохода</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">С просрочкой</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Рефинансирование для физлиц</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Рефинансирование кредиток</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Рефинансирование займов</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Займы</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Первый займ без процентов</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшие займы</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Займы онлайн</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Займы с плохой КИ на карту</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Займы без отказа</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Срочные займы</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Займы по паспорту</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Займы наличными</a>
+              </li>
+            </ul>
+          </div>
+          <div class="solution__item">
+            <h6 class="solution__item-title">Расчетные счета</h6>
+            <ul class="solution__item-list">
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">РКО для ИП</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">РКО онлайн</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">РКО для ООО</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Бесплатное РКО</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Лучшее РКО</a>
+              </li>
+              <li class="solution__list-item">
+                <a class="solution__list-link" href="#">Срочные займы</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">О проекте</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Карта сайта</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Обратная связь</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__list-item">
+            <a class="footer__list-link" href="#">Пользовательское соглашение</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__text">
+        Информация о банках не является офертой, носит ознакомительный характер. Точные условия размещены на официальных
+        сайтах
+        банков. Вся информация на сайте, включая тексты и визуальные элементы являются интеллектуальной собственностью,
+        их
+        копирование и использование без письменного согласия запрещено.
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
